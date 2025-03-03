@@ -22,6 +22,7 @@ namespace WFAXOXOyunu.UI
                 btn.Text = "";
                 btn.Enabled = true;
             }
+            birinciOyuncununSirasi = true;
             txtBilgilendirme.Text = "Birinci Oyuncunun (X) sýrasý...";
         }
 

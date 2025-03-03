@@ -61,12 +61,14 @@
             // 
             // btnYeniOyun
             // 
+            btnYeniOyun.BackColor = SystemColors.GradientInactiveCaption;
+            btnYeniOyun.Font = new Font("ROG Fonts", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnYeniOyun.Location = new Point(531, 548);
             btnYeniOyun.Name = "btnYeniOyun";
             btnYeniOyun.Size = new Size(227, 58);
             btnYeniOyun.TabIndex = 1;
             btnYeniOyun.Text = "Yeni Oyun";
-            btnYeniOyun.UseVisualStyleBackColor = true;
+            btnYeniOyun.UseVisualStyleBackColor = false;
             btnYeniOyun.Click += btnYeniOyun_Click;
             // 
             // label1
@@ -82,20 +84,20 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 11F);
+            label2.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold);
             label2.Location = new Point(531, 386);
             label2.Name = "label2";
-            label2.Size = new Size(172, 25);
+            label2.Size = new Size(170, 25);
             label2.TabIndex = 3;
             label2.Text = "Birinci Oyuncu (X) :";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 11F);
+            label3.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold);
             label3.Location = new Point(531, 414);
             label3.Name = "label3";
-            label3.Size = new Size(166, 25);
+            label3.Size = new Size(164, 25);
             label3.TabIndex = 3;
             label3.Text = "İkinci Oyuncu (O) :";
             // 
@@ -230,7 +232,7 @@
             // lblBirinciOyuncuKazanmaSayisi
             // 
             lblBirinciOyuncuKazanmaSayisi.AutoSize = true;
-            lblBirinciOyuncuKazanmaSayisi.Font = new Font("Segoe UI", 11F);
+            lblBirinciOyuncuKazanmaSayisi.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold);
             lblBirinciOyuncuKazanmaSayisi.Location = new Point(695, 386);
             lblBirinciOyuncuKazanmaSayisi.Name = "lblBirinciOyuncuKazanmaSayisi";
             lblBirinciOyuncuKazanmaSayisi.Size = new Size(22, 25);
@@ -240,7 +242,7 @@
             // lblIkinciOyuncuKazanmaSayisi
             // 
             lblIkinciOyuncuKazanmaSayisi.AutoSize = true;
-            lblIkinciOyuncuKazanmaSayisi.Font = new Font("Segoe UI", 11F);
+            lblIkinciOyuncuKazanmaSayisi.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold);
             lblIkinciOyuncuKazanmaSayisi.Location = new Point(695, 415);
             lblIkinciOyuncuKazanmaSayisi.Name = "lblIkinciOyuncuKazanmaSayisi";
             lblIkinciOyuncuKazanmaSayisi.Size = new Size(22, 25);
